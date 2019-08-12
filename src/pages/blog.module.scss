@@ -1,0 +1,31 @@
+.posts{
+    list-style-type: none;
+    margin:0;
+}
+
+
+
+// increase the space between each blog lists -> 
+.post {
+    margin:3rem 0;
+//inside post class style anchor tag element 
+    a {
+        background: #f4f4f4;
+        color: #000000;
+        display:block;
+        padding:2.5rem;
+        text-decoration: none;
+    }
+    a:hover{
+        background: #e4e4e4;
+    }
+    h2{
+        margin-bottom: 0;
+    }
+    p{
+        columns: #777777;
+        font-size:.8rem;
+        font-style: italic;
+    }
+}
+
